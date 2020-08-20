@@ -11,6 +11,11 @@ st.header('''
 Portfolio Mean Variance Optimization 
 ''')
 
+st.markdown('''
+- Finds the portfolio allocation with the highest Sharpe ratio
+- Finds the allocation for the portfolio with the lowest risk and highest return
+''')
+
 st.sidebar.markdown(''' Change the parameters of your portfolio.''')
 st.sidebar.markdown(''' Enter the correct ticker or you will get an error.''')
 
