@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run porfolio-app.py
+web: sh setup.sh && streamlit run portfolio-app.py
