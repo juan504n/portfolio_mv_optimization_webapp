@@ -95,7 +95,7 @@ def generate_portfolios(num_portfolios, mean_returns, cov_matrix, risk_free_rate
 returns = input_df.pct_change()
 mean_returns = returns.mean()
 cov_matrix = returns.cov()
-num_portfolios = 50000
+num_portfolios = 1000
 risk_free_rate = 0.0115
 
 def neg_sharpe_ratio(weights, mean_returns, cov_matrix, risk_free_rate):
